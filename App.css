@@ -1,0 +1,160 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  background: radial-gradient(#1900ff,white,rgb(4, 0, 255),white,#002fff);
+ background-image: url(/media/pic1.jpeg);
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  color: #333;
+}
+
+h2 {
+  text-align: center; 
+  color: #444;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+
+input {
+  margin: 5px 0;
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color:rgb(139, 0, 0);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  border: 3px solid rgb(255, 0, 34);
+}
+
+button:hover {
+  background-color: #dd1515;
+  transform: translateY(-3px);
+}
+
+table {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+  
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #f0e1e1;
+  
+}
+
+th {
+  background-color:rgb(142, 116, 238)
+}
+
+td button {
+  background-color:indigo;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+td button:hover {
+  background-color:darkviolet;
+  transform: translateY(-2px);
+}
+
+.btn{background-color: darkgreen;}
+
+.btn:hover{
+  background-color: rgb(21, 214, 21);
+   transform: translateY(-2px); ;
+}
+.no-data {
+  text-align: center;
+  color: #777;
+  font-style: italic;
+  margin-top: 20px;
+}
+
+.smms{color:  orangered;
+border: 5px solid rgb(65, 56, 56);
+height: 5%;
+background-color:#d8d0d0;
+border-width: center;
+padding: 10px;
+border-radius: 50000rem;
+
+
+}
+
+.order{
+  
+ color: black;}
+
+ .change input{
+  height: 20px;
+  width: 30%;
+  border: 3px solid rgb(4, 86, 107);
+  background-color: rgb(190, 245, 245);
+  
+ }
+
+.change input:hover{
+  background-color:  rgb(93, 183, 236);;
+ border-color: rgb(0, 88, 139);
+}
+
+.action{
+  background-color: rgb(56, 21, 214);
+ box-shadow:20px;
+
+
+}
+
+#btn{
+ position: relative;
+ left:600px ;
+ margin-bottom: 15px;
+background-color:rgb(201, 241, 132);
+color: #333;
+font-weight: bolder;
+font-size: 15px;
+border:2px solid rgb(47, 255, 64);
+
+}
+.tablebody{
+  background-color: #b7b4c5b6;
+  border: 3px solid black;
+  
+  
+}
+.data{
+  border: 2px solid black;
+  
+} 
+
+
+
+
